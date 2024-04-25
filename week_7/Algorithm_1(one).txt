@@ -1,0 +1,41 @@
+# ALGORITHM FOR SOURCE CODE
+
+step 1: Start:
+Import necessary libraries: tkinter for GUI and messagebox for displaying messages.
+Define a dictionary menu_prices containing menu items and their prices.
+    
+step 2: Define a function to display the menu:
+Start:
+Create a new window to display the menu.
+Add labels for each menu item and its price to the window.
+Stop.
+    
+step 3: Define a function to calculate the total cost of the order:
+Start:
+If order is not in menu_prices:
+Display an error message.
+Return.
+If quantity is not a positive integer:
+Display an error message.
+Return.
+Calculate the total cost of the order based on the given order and quantity.
+Apply discounts based on the total cost.
+Return the total cost.
+Stop.
+    
+step 4: Define a function to obtain orders from users:
+Start:
+Get input values for name, order, and quantity.
+Call calculate_total_cost(order, quantity) to get the total cost.
+Create a new window to display the total cost.
+Display the total cost in the new window.
+Stop.
+    
+step 5: Create the main GUI window:
+Start:
+Create the main window.
+Add labels and entry fields for name, order, and quantity to the main window.
+Add a button labeled "Submit" to the main window, calling the place_order() function.
+Stop.
+    
+step 6: Run the GUI main loop.
